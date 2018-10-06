@@ -1,0 +1,21 @@
+{
+  "name": "test_prac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-watch": "nodemon --exec 'npm test'",
+    "coverage": "istanbul cover test/**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "express": "^4.16.3",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0"
+  }
+}
